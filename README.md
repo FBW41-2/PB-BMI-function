@@ -14,3 +14,5 @@ https://classroom.github.com/a/4RPNUCrH
   - **Person 2 weight**
   - **Person 1 height**
   - **Person 2 height**
+- The **whoIsBiggest** function should use the **calculateMBI** function to calculate the BMI for bith people before comparing it and returning the bigger ones name.
+- That means that in the global scope only the **whoIsBiggest** function is called.
