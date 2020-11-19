@@ -5,10 +5,10 @@ https://classroom.github.com/a/4RPNUCrH
 
 - Create a **new branch** for this new version of the code so the original one stays untouched and work in the new branch.
 - Instead of having global variables and doing the calculations in the global scope, create two functions:
-  1. **calculateMBI** takes three arguments: a `name` string, a `weight` number and a `height` number. It returns the BMI number
+  1. **calculateBMI** takes three arguments: a `name` string, a `weight` number and a `height` number. It returns the BMI number
   2. **whoIsBiggest** takes four arguments: two `name` strings and two `bmi` numbers. It returns the name string of the bigger person
 
 **Bonus**
 - Rewrite the **whoIsBiggest** function to take six arguments: `Person 1 name`, `Person 2 name`, `Person 1 weight`, `Person 2 weight`, `Person 1 height`, `Person 2 height`
-- The **whoIsBiggest** function should use the **calculateMBI** function to calculate the BMI for bith people before comparing it and returning the bigger ones name.
+- The **whoIsBiggest** function should use the **calculateBMI** function to calculate the BMI for bith people before comparing it and returning the bigger ones name.
 (That means that in the global scope only the **whoIsBiggest** function is called.)
