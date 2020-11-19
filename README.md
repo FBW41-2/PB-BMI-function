@@ -10,5 +10,5 @@ https://classroom.github.com/a/4RPNUCrH
 
 **Bonus**
 - Rewrite the **whoIsBiggest** function to take six arguments: `Person 1 name`, `Person 2 name`, `Person 1 weight`, `Person 2 weight`, `Person 1 height`, `Person 2 height`
-- The **whoIsBiggest** function should use the **calculateBMI** function to calculate the BMI for bith people before comparing it and returning the bigger ones name.
+- The **whoIsBiggest** function should use the **calculateBMI** function to calculate the BMI for both people before comparing it and returning the bigger ones name.
 (That means that in the global scope only the **whoIsBiggest** function is called.)
